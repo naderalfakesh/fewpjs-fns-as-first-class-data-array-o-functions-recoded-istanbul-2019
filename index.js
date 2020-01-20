@@ -29,11 +29,11 @@ function unleashDog(dogName,dogBreed){
   return msg;
 }
 
-const routine=[wakeDog ,leashDog ,walkToPark ,throwFrisbee ,walkHome ,unleashDog ];
+let routine = [wakeDog ,leashDog ,walkToPark ,throwFrisbee ,walkHome ,unleashDog ];
 
 function exerciseDog(dogName,dogBreed){
   let arr = [];
-  for(ex of routine){
+  for(let i = 0 ; i < routine.length ; i++){
     arr.push(ex(dogName,dogBreed));
   }
   return arr;
