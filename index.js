@@ -28,4 +28,3 @@ function unleashDog(dogName,dogBreed){
   console.log(msg);
   return msg;
 }
-
