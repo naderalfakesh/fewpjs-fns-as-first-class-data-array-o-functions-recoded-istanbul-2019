@@ -29,7 +29,7 @@ function unleashDog(dogName,dogBreed){
   return msg;
 }
 
-const routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+const routine=[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
 
 function exerciseDog(dogName,dogBreed){
   let arr = [];
