@@ -39,4 +39,4 @@ function exerciseDog(dogName,dogBreed){
   return arr;
 }
 
-exerciseDog("nader","golden");
+unleashDog("nader","golden");
