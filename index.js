@@ -28,3 +28,13 @@ function unleashDog(dogName,dogBreed){
   console.log(msg);
   return msg;
 }
+
+const routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+
+function exerciseDog(dogName,dogBreed){
+  let arr = [];
+  for(ex in routine){
+    arr.push(ex(dogName,dogBreed));
+  }
+  return arr;
+}
