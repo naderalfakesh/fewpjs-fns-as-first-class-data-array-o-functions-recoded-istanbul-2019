@@ -38,5 +38,3 @@ function exerciseDog(dogName,dogBreed){
   }
   return arr;
 }
-
-exerciseDog("nader","golden");
